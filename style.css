@@ -3,3 +3,37 @@
     --title-font: 'Electrolize', sans-serif;
     --text-font: 'Lato', sans-serif;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 4000px;
+}
+
+/* Header */
+.bg-header{
+    background-image: url(./media/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-header-filter{
+    background-color: rgba(6, 57, 108, 0.7);
+    height: 100%;
+}
+
+.header-title{
+    color: white;
+    font-size: 120px;
+    font-weight: 600;
+    font-family: var(--title-font);
+    text-align: center;
+    padding-top: 40vh;
+    margin: 0px;
+}
