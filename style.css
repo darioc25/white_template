@@ -12,7 +12,6 @@
 
 body{
     height: 4000px;
-    background-color: rgba(255, 166, 0, 0.15) !important;
 }
 
 /* Header */
@@ -74,13 +73,14 @@ body{
 
 /* Section 1 */
 .custom-container-section-1{
-    margin: 80px 60px;
+    margin: 100px 60px 140px 60px;
 }
 
 .title-section-1{
     font-size: 80px;
     font-family: var(--title-font);
     margin: 0px;
+    padding-bottom: 30px;
 }
 
 .quote-style-section-1{
@@ -102,7 +102,7 @@ body{
 }
 
 .secondary-paragraph-section-1{
-    margin: 40px 20px 0px 20px;
+    margin: 50px 20px 0px 20px;
 }
 
 .secondary-title-paragraph-section-1{
@@ -144,7 +144,7 @@ body{
     font-size: 90px;
     font-family: var(--title-font);
     color: white;
-    margin: 20px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 .card-section-2{
@@ -175,8 +175,11 @@ body{
 /* Media Query Large Screen "LG" */
 @media screen and (max-width: 992px){
     /* Section 1 */
+    .custom-container-section-1{
+        margin: 100px 60px;
+    }
     .secondary-paragraph-section-1{
-        margin: 10px 20px 40px 20px;
+        margin: 10px 20px 60px 20px;
     }
 
     /* Section 2 */
@@ -243,15 +246,20 @@ body{
 /* Media Query Small Screen "SM" */
 @media screen and (max-width : 576px){
     /* Section 1 */
+    .custom-container-section-1{
+        margin: 100px 40px;
+    }
+
     .title-section-1{
-        font-size: 45px;
+        font-size: 50px;
+        padding-bottom: 10px;
     }
 
     .quote-paragraph-section-1{
-        margin: 30px 0px 20px 0px;
+        margin: 0px;
     }
 
     .secondary-paragraph-section-1{
-        margin: 0px 0px 40px 0px;
+        margin: 10px 0px 60px 0px;
     }
 }
