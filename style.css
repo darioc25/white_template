@@ -12,7 +12,7 @@
 
 body{
     height: 4000px;
-    background-color: rgba(255, 0, 0, 0.1) !important;
+    background-color: rgba(255, 166, 0, 0.15) !important;
 }
 
 /* Header */
@@ -85,12 +85,11 @@ body{
 
 .quote-style-section-1{
     position: absolute;
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 35px;
     color: var(--main-color);
-    top: -45px;
+    top: -25px;
     left: -35px;
-    transform: rotate(10deg);
+    transform: rotate(20deg);
 }
 
 .quote-paragraph-section-1{
@@ -121,15 +120,83 @@ body{
     margin: 0px;
 }
 
+/* Section 2 */
+.custom-container-section-2{
+    background-image: url(./media/power-plant-4712830_1280.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.bg-filter-section-2{
+    height: 100%;
+    background-color: rgba(6, 57, 108, 0.5);
+}
+
+.custom-row-section-2{
+    height: 100%;
+    padding: 80px 60px;
+    margin: 0px !important;
+}
+
+.title-section-2{
+    font-size: 90px;
+    font-family: var(--title-font);
+    color: white;
+    margin: 20px 0px 0px 0px;
+}
+
+.card-section-2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-card-section-2{
+    font-size: 50px;
+}
+
+.number-card-section-2{
+    font-family: var(--title-font);
+    font-weight: 600;
+    font-size: 40px;
+    margin: 15px 0px 0px 0px;
+}
+
+.title-card-section-2{
+    font-family: var(--text-font);
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0px;
+}
+
 /* Media Query Large Screen "LG" */
 @media screen and (max-width: 992px){
+    /* Section 1 */
     .secondary-paragraph-section-1{
         margin: 10px 20px 40px 20px;
+    }
+
+    /* Section 2 */
+    .custom-container-section-2{
+        height: 800px;
+    }
+
+    .title-section-2{
+        text-align: center;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .card-section-2{
+        margin: 30px 0px;
     }
 }
 
 /* Media Query Medium Screen "MD" */
 @media screen and (max-width: 768px){
+    /* Section 1 */
     .custom-navbar{
         height: 230px;
         display: flex;
@@ -161,10 +228,21 @@ body{
         margin: 5px 0px;
         padding: 0px;
     }
+
+    /* Section 2 */
+    .custom-container-section-2{
+        height: 1200px;
+    }
+
+    .title-section-2{
+        font-size: 60px;
+        margin: 0px;
+    }
 }
 
 /* Media Query Small Screen "SM" */
 @media screen and (max-width : 576px){
+    /* Section 1 */
     .title-section-1{
         font-size: 45px;
     }
