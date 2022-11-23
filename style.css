@@ -11,7 +11,7 @@
 }
 
 body{
-    height: 4000px;
+    height: 8000px;
 }
 
 /* Header */
@@ -126,7 +126,8 @@ body{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 600px;
+    z-index: 0;
 }
 
 .bg-filter-section-2{
@@ -136,7 +137,7 @@ body{
 
 .custom-row-section-2{
     height: 100%;
-    padding: 80px 60px;
+    padding: 120px 60px;
     margin: 0px !important;
 }
 
@@ -172,8 +173,42 @@ body{
     margin: 0px;
 }
 
+/* Section 3 */
+.left-article-section-3{
+    position: absolute;
+    top: -80px;
+    left: 60px;
+    width: 100%;
+    z-index: 1;
+    padding: 60px 80px;
+    background-color: var(--main-color);
+    color: white;
+    border: 3px solid white;
+    overflow: hidden;
+}
+
+.right-article-section-3{
+    position: absolute;
+    z-index: 2;
+    padding: 60px 80px;
+    background-color: white;
+    color: black;
+}
+
+.title-article-section-3{
+    font-size: 40px;
+    font-family: var(--title-font);
+}
+
+.paragraph-article-section-3{
+    font-size: 17px;
+    font-family: var(--text-font);
+    font-weight: 600;
+    margin: 80px 0px;
+}
+
 /* Media Query Large Screen "LG" */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 991px){
     /* Section 1 */
     .custom-container-section-1{
         margin: 100px 60px;
@@ -195,10 +230,29 @@ body{
     .card-section-2{
         margin: 30px 0px;
     }
+
+    /* Section 3 */
+    .custom-container-section-3{
+        margin: 0px 30px;
+        height: 1800px;
+    }
+
+    .left-article-section-3{
+        position: relative;
+        top: -80px;
+        left: 0px;
+    }
+
+    .right-article-section-3{
+        position: relative;
+        top: -140px;
+        padding-bottom: 0px;
+        border: 3px solid var(--main-color);
+    }
 }
 
 /* Media Query Medium Screen "MD" */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     /* Section 1 */
     .custom-navbar{
         height: 230px;
@@ -244,7 +298,7 @@ body{
 }
 
 /* Media Query Small Screen "SM" */
-@media screen and (max-width : 576px){
+@media screen and (max-width : 575px){
     /* Section 1 */
     .custom-container-section-1{
         margin: 100px 40px;
@@ -261,5 +315,10 @@ body{
 
     .secondary-paragraph-section-1{
         margin: 10px 0px 60px 0px;
+    }
+
+    /* Section 3 */
+    .right-article-section-3{
+        top: -60px;
     }
 }
