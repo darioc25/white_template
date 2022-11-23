@@ -236,6 +236,27 @@ body{
     margin-top: 30px;
 }
 
+/* Section 5 */
+.custom-container-section-5{
+    padding: 60px;
+    /* background-color: rgba(255, 166, 0, 0.3); */
+}
+
+.title-section-5{
+    font-size: 40px;
+    font-family: var(--title-font);
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.paragraph-section-5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--text-font);
+    color: var(--text-color);
+}
+
 /* Media Query Large Screen "LG" */
 @media screen and (max-width: 991px){
     /* Section 1 */
@@ -323,11 +344,6 @@ body{
         font-size: 60px;
         margin: 0px;
     }
-
-    /* Section 4 */
-    .title-section-4{
-        text-align: center;
-    }
 }
 
 /* Media Query Small Screen "SM" */
@@ -352,6 +368,16 @@ body{
 
     /* Section 4 */
     .paragraph-section-4{
+        text-align: center;
+    }
+
+    /* Section 4 */
+    .title-section-4{
+        text-align: center;
+    }
+
+    /* Section 5 */
+    .title-section-5{
         text-align: center;
     }
 }
