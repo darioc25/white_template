@@ -1,5 +1,6 @@
 :root{
     --main-color: rgb(6, 57, 108);
+    --text-color: rgb(108, 117, 126);
     --title-font: 'Electrolize', sans-serif;
     --text-font: 'Lato', sans-serif;
 }
@@ -98,7 +99,7 @@ body{
     margin: 0px 20px;
     font-family: var(--text-font);
     font-weight: 400;
-    color: rgb(108, 117, 126);
+    color: var(--text-color);
 }
 
 .secondary-paragraph-section-1{
@@ -175,7 +176,7 @@ body{
 
 /* Section 3 */
 .left-article-section-3{
-    position: absolute;
+    position: relative;
     top: -80px;
     left: 60px;
     width: 100%;
@@ -188,7 +189,7 @@ body{
 }
 
 .right-article-section-3{
-    position: absolute;
+    position: relative;
     z-index: 2;
     padding: 60px 80px;
     background-color: white;
@@ -201,10 +202,38 @@ body{
 }
 
 .paragraph-article-section-3{
-    font-size: 17px;
+    font-size: 18px;
     font-family: var(--text-font);
-    font-weight: 600;
     margin: 80px 0px;
+}
+
+/* Section 4 */
+.custom-container-section-4{
+    padding: 0px 60px 60px 60px;
+    /* background-color: rgba(255, 166, 0, 0.3); */
+}
+
+.title-section-4{
+    color: var(--main-color);
+    font-family: var(--title-font);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.paragraph-section-4{
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.button-section-4{
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    align-items: center;
+    margin-top: 30px;
 }
 
 /* Media Query Large Screen "LG" */
@@ -234,7 +263,6 @@ body{
     /* Section 3 */
     .custom-container-section-3{
         margin: 0px 30px;
-        height: 1800px;
     }
 
     .left-article-section-3{
@@ -245,7 +273,7 @@ body{
 
     .right-article-section-3{
         position: relative;
-        top: -140px;
+        top: -60px;
         padding-bottom: 0px;
         border: 3px solid var(--main-color);
     }
@@ -295,6 +323,11 @@ body{
         font-size: 60px;
         margin: 0px;
     }
+
+    /* Section 4 */
+    .title-section-4{
+        text-align: center;
+    }
 }
 
 /* Media Query Small Screen "SM" */
@@ -317,8 +350,8 @@ body{
         margin: 10px 0px 60px 0px;
     }
 
-    /* Section 3 */
-    .right-article-section-3{
-        top: -60px;
+    /* Section 4 */
+    .paragraph-section-4{
+        text-align: center;
     }
 }
