@@ -12,7 +12,7 @@
 }
 
 body{
-    height: 8000px;
+    height: 12000px;
 }
 
 p{
@@ -262,7 +262,6 @@ p{
 /* Section 6 */
 .custom-container-section-6{
     padding: 80px 60px 60px 60px;
-    /* background-color: rgba(255, 166, 0, 0.3); */
 }
 
 .card-section-6{
@@ -305,14 +304,74 @@ p{
     margin: 0px;
 }
 
+/* Section 7 */
+.custom-container-section-7{
+    height: 800px;
+    padding: 0px 140px;
+    background: linear-gradient(180deg, var(--main-color) 42%, white 42%);
+}
 
+.title-section-7{
+    color: white;
+    font-family: var(--title-font);
+    margin: 100px 0px 0px 0px;
+    font-size: 60px;
+    text-align: center;
+}
 
+.custom-row-section-7{
+    padding-top: 70px;
+    margin: 0px !important;
+}
 
+.card-section-7{
+    position: relative;
+    height: 180px;
+    width: 420px;
+    color: white;
+    margin: 20px 0px;
+}
 
+.image-card-section-7{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    left: 0px;
+}
 
+.filter-card-section-7{
+    background: linear-gradient(180deg, rgb(6, 57, 108, 0.1) 0%, rgb(6, 57, 108, 0.85) 60%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+}
 
+.content-card-section-7{
+    position: relative;
+    z-index: 2;
+    margin-left: 15px;
+}
 
+.first-title-card-section-7{
+    text-align: end;
+    padding: 10px 20px 0px 0px;
+    font-family: var(--text-font);
+    font-weight: 400;
+}
 
+.icon-card-section-7{
+    font-size: 40px;
+    margin: 10px 0px 20px 0px;
+}
+
+.last-title-card-section-7{
+    font-family: var(--title-font);
+    font-size: 40px;
+    margin: 0px;
+}
 
 
 
@@ -355,7 +414,8 @@ p{
 
 
 /* Media Query Extra Large Screen "XL" */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1199px){
+    /* Section 6 */
     .card-section-6{
         width: 460px;
         height: 180px;
@@ -363,10 +423,19 @@ p{
 }
 
 /* Media Query Extra Large Screen "XXL" */
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1399px){
+    /* Section 6 */
     .card-section-6{
         width: 520px;
         height: 210px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    /* Section 7 */
+    .custom-container-section-7{
+        height: 1000px;
+        background: linear-gradient(180deg, var(--main-color) 34%, white 34%);
     }
 }
 
@@ -416,6 +485,13 @@ p{
     .card-section-6{
         width: 520px;
         height: 210px;
+    }
+
+    /* Section 7 */
+    .custom-container-section-7{
+        padding: 0px 0px;
+        height: 1680px;
+        background: linear-gradient(180deg, var(--main-color) 20%, white 20%);
     }
 }
 
@@ -510,5 +586,11 @@ p{
     .card-section-6{
         width: 380px;
         height: 120px;
+    }
+
+    /* Section 7 */
+    .title-section-7{
+        font-size: 40px;
+        margin: 120px 0px 0px 0px;
     }
 }
