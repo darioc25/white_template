@@ -261,7 +261,7 @@ p{
 
 /* Section 6 */
 .custom-container-section-6{
-    padding: 80px 60px 60px 60px;
+    padding: 80px 180px 60px 180px;
 }
 
 .card-section-6{
@@ -468,6 +468,11 @@ p{
 
 /* Media Query Extra Large Screen "XXXL" */
 @media screen and (max-width: 1599px){
+    /* Section 6 */
+    .custom-container-section-6{
+        padding: 80px 60px 60px 60px;
+    }
+
     /* Section 7 */
     .custom-container-section-7{
         padding: 0px 120px;
@@ -489,6 +494,11 @@ p{
 
 /* Media Query Extra Large Screen "XL" */
 @media screen and (max-width: 1199px){
+    /* Section 6 */
+    .custom-container-section-6{
+        padding: 80px 20px 60px 20px;
+    }
+    
     /* Section 7 */
     .custom-container-section-7{
         height: 1000px;
