@@ -307,7 +307,7 @@ p{
 /* Section 7 */
 .custom-container-section-7{
     height: 800px;
-    padding: 0px 140px;
+    padding: 0px 180px;
     background: linear-gradient(180deg, var(--main-color) 42%, white 42%);
 }
 
@@ -326,8 +326,8 @@ p{
 
 .card-section-7{
     position: relative;
-    height: 180px;
-    width: 420px;
+    height: 210px;
+    width: 480px;
     color: white;
     margin: 20px 0px;
 }
@@ -431,10 +431,28 @@ p{
     }
 }
 
+/* Media Query Extra Large Screen "XXXL" */
+@media screen and (max-width: 1599px){
+    /* Section 7 */
+    .custom-container-section-7{
+        padding: 0px 120px;
+    }
+}
+
+/* Media Query Extra Large Screen "XXL" */
+@media screen and (max-width: 1399px){
+    /* Section 7 */
+    .custom-container-section-7{
+        padding: 0px 160px;
+    }
+}
+
+/* Media Query Extra Large Screen "XL" */
 @media screen and (max-width: 1199px){
     /* Section 7 */
     .custom-container-section-7{
         height: 1000px;
+        padding: 0px 120px;
         background: linear-gradient(180deg, var(--main-color) 34%, white 34%);
     }
 }
@@ -489,7 +507,7 @@ p{
 
     /* Section 7 */
     .custom-container-section-7{
-        padding: 0px 0px;
+        padding: 0px;
         height: 1680px;
         background: linear-gradient(180deg, var(--main-color) 20%, white 20%);
     }
@@ -586,6 +604,10 @@ p{
     .card-section-6{
         width: 380px;
         height: 120px;
+    }
+
+    .custom-container-section-6{
+        padding: 40px 30px 60px 30px;
     }
 
     /* Section 7 */
