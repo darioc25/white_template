@@ -11,10 +11,6 @@
     box-sizing: border-box;
 }
 
-body{
-    height: 12000px;
-}
-
 p{
     font-weight: 500;
 }
@@ -480,6 +476,59 @@ p{
     margin-bottom: 30px;
 }
 
+/* Footer */
+.custom-container-footer{
+    background-color: black;
+    height: 600px;
+    padding: 0px 60px;
+    margin-top: 120px;
+}
+
+.img-footer{
+    width: 90px;
+    margin: 0px;
+}
+
+.title-footer{
+    font-size: 40px;
+    font-family: var(--title-font);
+    color: white;
+    margin: 60px 0px;
+}
+
+.paragraph-footer{
+    font-size: 18px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    margin: 0px;
+}
+
+.custom-card-footer{
+    position: relative;
+    top: -120px;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+}
+
+.title-custom-card-footer{
+    font-size: 50px;
+    font-family: var(--title-font);
+    color: white;
+    margin-bottom: 40px;
+}
+
+.link-custom-card-footer{
+    font-size: 18px;
+    font-family: var(--text-font);
+    color: white;
+    margin: 8px 0px;
+}
+
 
 
 
@@ -535,6 +584,11 @@ p{
     .custom-container-section-8{
         padding: 320px 120px 20px 120px;
     }
+
+    /* Footer */
+    .custom-card-footer{
+        width: 100%;
+    }
 }
 
 /* Media Query Extra Large Screen "XL" */
@@ -558,6 +612,18 @@ p{
 
     .card-section-8{
         margin: 20px 0px;
+    }
+
+    /* Footer */
+    .custom-container-footer{
+        height: 1200px;
+        margin-top: 60px;
+    }
+
+    .custom-card-footer{
+        padding: 80px;
+        height: 600px;
+        top: 0px;
     }
 }
 
@@ -743,5 +809,25 @@ p{
     /* Section 9 */
     .custom-container-section-9{
         padding: 90px 20px;
+    }
+
+    /* Footer */
+    .custom-container-footer{
+        height: 1200px;
+        padding: 0px 10px;
+    }
+
+    .paragraph-footer{
+        text-align: center;
+    }
+
+    .title-custom-card-footer{
+        font-size: 30px;
+    }
+
+    .custom-card-footer{
+        top: 0px;
+        padding: 0px;
+        height: 600px;
     }
 }
