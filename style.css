@@ -273,6 +273,7 @@ p{
     position: relative;
     width: 380px;
     height: 140px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 .filter-card-section-6{
@@ -330,6 +331,7 @@ p{
     width: 480px;
     color: white;
     margin: 20px 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 .image-card-section-7{
@@ -373,15 +375,48 @@ p{
     margin: 0px;
 }
 
+/* Section 8 */
+.custom-container-section-8{
+    padding: 120px 120px 20px 120px;
+}
 
+.title-section-8{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--title-font);
+    color: var(--main-color);
+    text-align: center;
+    margin: 0px 0px 60px 0px;
+}
 
+.card-section-8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
 
+.first-title-card-section-8{
+    font-size: 40px;
+    font-family: var(--title-font);
+    color: var(--main-color);
+    margin: 0px 0px 10px 0px;
+}
 
+.last-title-card-section-8{
+    font-size: 24px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    margin: 0px;
+}
 
-
-
-
-
+.icon-card-section-8{
+    font-size: 50px;
+    color: var(--text-color);
+    margin: 60px 0px 0px 0px;
+}
 
 
 
@@ -445,6 +480,11 @@ p{
     .custom-container-section-7{
         padding: 0px 160px;
     }
+
+    /* Section 8 */
+    .custom-container-section-8{
+        padding: 320px 120px 20px 120px;
+    }
 }
 
 /* Media Query Extra Large Screen "XL" */
@@ -454,6 +494,15 @@ p{
         height: 1000px;
         padding: 0px 120px;
         background: linear-gradient(180deg, var(--main-color) 34%, white 34%);
+    }
+
+    /* Section 8 */
+    .custom-container-section-8{
+        padding: 120px 240px 20px 240px;
+    }
+
+    .card-section-8{
+        margin: 20px 0px;
     }
 }
 
@@ -511,6 +560,11 @@ p{
         height: 1680px;
         background: linear-gradient(180deg, var(--main-color) 20%, white 20%);
     }
+
+    /* Section 8 */
+    .custom-container-section-8{
+        padding: 210px 180px 20px 180px;
+    }
 }
 
 /* Media Query Medium Screen "MD" */
@@ -563,6 +617,11 @@ p{
         width: 460px;
         height: 180px;
     }
+
+    /* Section 8 */
+    .custom-container-section-8{
+        padding: 210px 110px 20px 110px;
+    }
 }
 
 /* Media Query Small Screen "SM" */
@@ -614,5 +673,15 @@ p{
     .title-section-7{
         font-size: 40px;
         margin: 120px 0px 0px 0px;
+    }
+
+    /* Section 8 */
+    .custom-container-section-8{
+        padding: 180px 20px 20px 20px;
+    }
+
+    .title-section-8{
+        font-size: 32px;
+        margin: 0px 0px 40px 0px;
     }
 }
