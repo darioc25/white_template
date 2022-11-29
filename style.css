@@ -74,7 +74,7 @@ p{
 
 /* Section 1 */
 .custom-container-section-1{
-    margin: 100px 60px 140px 60px;
+    padding: 100px 10px 140px 60px;
 }
 
 .title-section-1{
@@ -209,7 +209,6 @@ p{
 /* Section 4 */
 .custom-container-section-4{
     padding: 30px 60px 60px 60px;
-    /* background-color: rgba(255, 166, 0, 0.3); */
 }
 
 .title-section-4{
@@ -238,7 +237,6 @@ p{
 /* Section 5 */
 .custom-container-section-5{
     padding: 60px;
-    /* background-color: rgba(255, 166, 0, 0.3); */
 }
 
 .title-section-5{
@@ -260,8 +258,23 @@ p{
     padding: 80px 180px 60px 180px;
 }
 
-.card-section-6{
+.bg-card-1-section-6{
     background: url("https://picsum.photos/900");
+}
+
+.bg-card-2-section-6{
+    background: url("https://picsum.photos/901");
+}
+
+.bg-card-3-section-6{
+    background: url("https://picsum.photos/902");
+}
+
+.bg-card-4-section-6{
+    background: url("https://picsum.photos/903");
+}
+
+.card-section-6{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -529,19 +542,7 @@ p{
     margin: 8px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Media Query MIN WIDTH */
 /* Media Query Extra Large Screen "XL" */
 @media screen and (min-width: 1199px){
     /* Section 6 */
@@ -551,6 +552,7 @@ p{
     }
 }
 
+/* Media Query MAX WIDTH */
 /* Media Query Extra Large Screen "XXL" */
 @media screen and (min-width: 1399px){
     /* Section 6 */
@@ -562,6 +564,11 @@ p{
 
 /* Media Query Extra Large Screen "XXXL" */
 @media screen and (max-width: 1599px){
+    /* Section 1 */
+    .custom-container-section-1{
+        padding: 100px 60px 140px 60px;
+    }
+
     /* Section 6 */
     .custom-container-section-6{
         padding: 80px 60px 60px 60px;
@@ -625,13 +632,17 @@ p{
         height: 600px;
         top: 0px;
     }
+
+    .paragraph-footer{
+        text-align: center;
+    }
 }
 
 /* Media Query Large Screen "LG" */
 @media screen and (max-width: 991px){
     /* Section 1 */
     .custom-container-section-1{
-        margin: 100px 60px;
+        padding: 100px 60px;
     }
     .secondary-paragraph-section-1{
         margin: 10px 20px 60px 20px;
@@ -749,7 +760,7 @@ p{
 @media screen and (max-width : 575px){
     /* Section 1 */
     .custom-container-section-1{
-        margin: 100px 40px;
+        padding: 100px 40px;
     }
 
     .title-section-1{
@@ -815,10 +826,6 @@ p{
     .custom-container-footer{
         height: 1200px;
         padding: 0px 10px;
-    }
-
-    .paragraph-footer{
-        text-align: center;
     }
 
     .title-custom-card-footer{
